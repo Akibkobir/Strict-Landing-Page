@@ -1,0 +1,177 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #f5f9f9;
+}
+.no-padding {
+	padding: 0px;
+}
+
+.banner {
+	background: url(../img/banner.png);
+}
+
+.b-content {
+	background: transparent;
+}
+.display-4 {
+	font-size: 90px;
+	color: white;
+	text-align: center;
+}
+.stroke {
+	border-bottom: 2px solid #15a3f9;
+}
+.b-content p {
+	text-align: center;
+}
+.btn {
+margin: 0 auto;
+display: block;
+background: transparent;
+border: 1px solid #15a3f9;
+}
+.fa.fa-chevron-down {
+	color: white;
+}
+.arrow {
+	text-align: center;
+	padding-bottom: 85px;
+}
+.arrow ul {
+	list-style: none;
+}
+.arrow ul li {
+display: inline-block;
+}
+.arrow ul li a {
+	text-align: center;
+}
+.first-title {
+	text-align: center;
+}
+.pgph {
+	text-align: center;
+	padding-bottom: 50px;
+}
+.icon-box {
+	background: white;
+}
+.fa.fa-mobile {
+	background: lightblue;
+	color: white;
+	font-size: 120px;
+
+}
+.card ul li i {
+	text-align: center;
+	width: 120px;
+
+}
+.card ul{
+	list-style: none;
+	text-align: center;
+
+}
+.card ul li {
+	display: inline-block;
+}
+.fa.fa-paper-plane {
+	background: lightblue;
+	color: white;
+	font-size: 120px;
+}
+.card h4 {
+	text-align: center;
+}
+.card p {
+	text-align: center;
+}
+
+.gallery {
+	
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 40px 0;
+}
+.single-img {
+  
+  border: 1px solid #ccc;
+  width: 300px;
+  height: 300px;
+  margin: 0 20px;
+  transition: 1s;
+}
+
+
+
+.single-img img {
+  width: 100%;
+  height: 100%;
+  opacity: .5;
+  transition: .9s;
+
+}
+.single-img:hover {
+	transform: scale(1.3);
+	z-index: 2;
+	box-shadow: 0px 2px 20px white;
+}
+.single-img:hover img {
+	opacity: 1;
+}
+
+.contact {
+	background: url(../img/bg.png);
+}
+
+.form-group {
+	
+}
+.form-control {
+	background: transparent;
+	width: 550px;
+}
+.btn {
+	margin-top: 20px;
+
+}
+.chckbox {
+	margin: 20px 0;
+}
+
+.footer-icon ul {
+	list-style: none;
+	
+}
+.footer-icon ul li {
+	display: inline-block;
+	
+}
+.footer-icon ul li a{
+	text-decoration: none;
+}
+.fa.fa-facebook-official {
+	font-size: 30px;
+	color: blue;
+	background: white;
+}
+.fa.fa-twitter {
+	font-size: 30px;
+	color: white;
+	background: blue;
+}
+.fa.fa-google-plus {
+	font-size: 30px;
+	color: white;
+	background: blue;
+}
+.fa.fa-linkedin {
+	font-size: 30px;
+	color: white;
+	background: blue;
+}
